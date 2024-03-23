@@ -9,6 +9,7 @@ const tempelatePath=path.join(__dirname,'../tempelates')
 app.use(express.json())
 app.set("view engine","hbs")
 app.set("views",tempelatePath)
+app.use(express.urlencoded({extended:false}))
 
 app.get("/",(req,res)=>{
     res.render("login")
