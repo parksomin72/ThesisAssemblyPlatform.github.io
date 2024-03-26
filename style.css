@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-*{
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body{
     background-position: center;
 }
 /********************************* NavBar *************************************/
-.header{
+/*.header{
     position: fixed;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ body{
     color: #fff;
     cursor: pointer;
     display: none;
-}
+}*/
 /********************************* Content *************************************/
 .container{
     margin-top: 7%;
@@ -285,7 +285,7 @@ a {
 }
 
 /*Responsive*/
-@media (max-width:992px){
+/*@media (max-width:992px){
     .header{
         padding: 1.rem 5%;
     }
@@ -369,3 +369,4 @@ a {
         width: 90%;
     }
 }
+*/
